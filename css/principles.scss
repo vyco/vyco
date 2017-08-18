@@ -1,0 +1,166 @@
+section.principles{
+  .intro-vyco{
+    position: relative;
+  }
+span.see{
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding: 0;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: .56s ease all;
+  .port{
+    margin-top: 10px;
+    &:hover{
+      span.see{
+        transform: translateY(0px);
+        opacity: 1;
+      }
+    }
+  }
+}
+  .promises-title{
+    text-align: center;
+
+  }
+  .overlay{
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+background-image: -webkit-linear-gradient(bottom, #222831 0%, #E23E57 100%);
+
+    opacity: .9;
+
+
+  }
+
+  .our-promise{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+  .title-header{
+    z-index: 100;
+  .span-locker{
+    position: relative;
+    .intro-vyco{
+      letter-spacing: 7px;
+      font-size: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+      opacity: 0;
+
+
+    }
+    span{
+      margin: 10px;
+      font-size: 20px;
+      opacity: 0;
+    }
+    margin-bottom: -50px;
+      .dot{
+        background: #E2EFF1;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-left: 20px;
+      }
+  }
+}
+  .complete-header{
+    height: 100vh;
+    position: relative;
+    width: 100%;
+      background: url("https://i.imgur.com/6D5O2VU.jpg");
+      background-size: cover;
+      background-position: bottom
+       top;
+      background-attachment: fixed;
+
+    color: white;
+  }
+
+  h1.promises-title{
+    font-size: 80px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    font-family: "brandon-grotesque";
+    font-weight: 300;
+  }
+
+  span{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    transition: .65s ease all;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .fa{
+    transition: .65s ease all;
+    &:hover{
+      color: $orange;
+      cursor: pointer;
+      span{
+        color: orange;
+      }
+    }
+  }
+  .lockup{
+    width: 100%;
+    .lrg{
+      background: #F2F2F2;
+      color: grey;
+      width: 600px;
+      h1{
+        font-weight: 400;
+        strong{
+          font-weight: bold;
+        }
+      }
+    }
+    .grey{
+      background: #222831;
+      color: white;
+    }
+    .orange{
+      background: #15191f;
+      color: white;
+    }
+  .unit{
+      padding: 30px;
+      margin: 0;
+      width: 100%;
+
+    h1{
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-size: 20px;
+
+
+    }
+    p{
+      width: 600px;
+      line-height: 2em;
+      font-size: 20px;
+      font-weight: 400;
+      &:hover{
+        strong{
+          font-size: 40px;
+        }
+      }
+      strong{
+        font-family: "Satisfy",sans-serif;
+        color: $orange;
+        font-size: 30px;
+        transition: .56s ease all;
+      }
+
+    }
+  }
+  }
+}

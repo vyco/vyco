@@ -1,0 +1,26 @@
+.hero-intro{
+  height: 100vh;
+  background: url("https://images.unsplash.com/photo-1498622429433-bbb22b92ee02?dpr=0.75&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+  background-size: cover;
+  background-position: center center;
+  .overlay{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    color: white;
+    h1{
+      font-size: 200px;
+      margin: 0;
+      font-family: "Satisfy",sans-serif;
+      margin-bottom: 20px
+    }
+    span{
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      font-size: 20px;
+    }
+  }
+
+}
