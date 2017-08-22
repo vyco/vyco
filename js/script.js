@@ -13,6 +13,12 @@ bannerClick();
 
 });
 
+function redirect(){
+  if(screen.width <= 660){
+    document.location = "mobile.html";
+
+  }
+}
 function hover(){
   $('.unit').eq(0).mouseover(function(){
     $('.hop').addClass("animated");
