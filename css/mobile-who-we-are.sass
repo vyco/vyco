@@ -1,0 +1,57 @@
+section.who-we-are
+  .main-title
+    font-size: 30px
+    color: white
+    font-weight: 300
+    animation-name: fadeInUp
+    animation-duration: 2s
+    animation-fill-mode: forwards
+  a
+    text-decoration: none
+    text-transform: uppercase
+    letter-spacing: 2px
+    color: black
+    padding: 10px
+    font-size: 12px
+  .mid-para
+    margin-top: 2pc
+    background: url("https://i.imgur.com/6D5O2VU.jpg")
+    width: 100vh
+    height: 50vh
+    background-size: cover
+    position: relative
+    background-position: center center
+    .overlay
+      background-image: -webkit-linear-gradient(bottom, #222831 0%, #E23E57 100%)
+      opacity: .9
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+
+  .lock
+    .unit
+      flex: 1
+      background: $black
+      color: white
+      border: none
+      outline: none
+      padding: 30px
+      line-height: 1.9em
+      &:nth-of-type(1)
+        background: #f9f9f9
+        color: #666
+      &:nth-of-type(2)
+        background: #f1f1f1
+        color: #666
+      &:nth-of-type(3)
+        background: #e3e3e3
+        color: #666
+      .unit-title
+        text-align: center
+        text-transform: capitalize
+        color: $orange
+        font-size: 20px
+        span
+          font-weight: 300

@@ -10,11 +10,11 @@ banner();
 sizer();
 spanLocker();
 bannerClick();
-
+redirect();
 });
 
 function redirect(){
-  if(screen.width <= 660){
+  if(screen.width <= 680){
     document.location = "mobile.html";
 
   }
