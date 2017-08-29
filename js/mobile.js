@@ -5,6 +5,7 @@ $(document).ready(function(){
 });
 function animations(){
 $('.main-body').css("opacity","0");
+$('.main-body').hide();
   $('section.intro > h3').addClass("fadeInDown");
   setTimeout(function(){
     $('section.intro > h3').animate({
@@ -32,7 +33,8 @@ $('.main-body').css("opacity","0");
 
           $('.come-in').each(function(i){
             setTimeout(function(){
-              $('.unit').eq(i).addClass("fadeInUp");
+              $('.come-in').eq(i).addClass("fadeInUp");
+              $('.main-body').show();
             },i*300);
           });
 
