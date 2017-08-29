@@ -140,4 +140,3 @@ function bannerClick(){
       scrollTop: $('.our-process').offset().top
     },4000);
   });
-}
