@@ -2803,7 +2803,7 @@ template, [hidden] {
   justify-content: space-between; }
 
 body {
-  font-family: "brandon-grotesque";
+  font-family: "museo-sans-rounded";
   margin: 0;
   padding: 0;
   overflow-x: hidden; }
@@ -2881,7 +2881,7 @@ section.who-we-are .lock .unit {
   line-height: 1.9em; }
   section.who-we-are .lock .unit:nth-of-type(1) {
     background: #f9f9f9;
-    color: #666; }
+    color: #222; }
   section.who-we-are .lock .unit:nth-of-type(2) {
     background: #f1f1f1;
     color: #666; }
@@ -2895,6 +2895,12 @@ section.who-we-are .lock .unit {
     font-size: 20px; }
     section.who-we-are .lock .unit .unit-title span {
       font-weight: 400; }
+
+.cell-lockup .posr {
+  color: black; }
+
+.cell-lockup .posa {
+  top: 0; }
 
 .cell-lockup .imp {
   font-size: 18px;
@@ -2920,19 +2926,25 @@ section.who-we-are .lock .unit {
     text-decoration: none;
     text-align: center;
     border: 3px solid #E23E57;
-    color: #E23E57;
-    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 40px;
     margin-top: 50px;
     margin-bottom: 30px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    font-size: 14px; }
+    font-size: 14px;
+    background: #E23E57; }
   .cell-lockup .cell h1 {
     padding: 20px 0 30px 0;
     margin: 0; }
     .cell-lockup .cell h1::first-letter {
       text-transform: uppercase;
       color: #E23E57; }
+  .cell-lockup .cell .exclusive {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px; }
   .cell-lockup .cell p {
     font-size: 14px;
     display: -webkit-box;
@@ -2946,10 +2958,6 @@ section.who-we-are .lock .unit {
     flex-direction: column;
     line-height: 1.4em;
     padding: 0; }
-    .cell-lockup .cell p strong {
-      font-weight: bold; }
-      .cell-lockup .cell p strong::first-letter {
-        text-transform: uppercase; }
 
 .banner {
   text-align: center;
