@@ -10,10 +10,25 @@
     section.principles .lockup .unit p strong {
       font-size: 25px
     }
+    section.prices .price-unit {
+      max-width: 300px;
+      padding: 20px;
+      margin: 10px;
+    }
     section.prices .price-unit p{
-      font-size: 16px;
+      font-size: 13px;
     }
     .banner h1{
       font-size: 15px;
     }
+    section.includes .include-unit  {
+      margin: 10px 30px 100px 0 
+    }
+    section.includes .include-unit p{
+      width: 100px;
+      text-align: left;
+    }
+    section.include .include-unit .title h1{
+    padding-bottom: 50px;
   }
+}

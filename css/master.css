@@ -3441,10 +3441,21 @@ section.principles .lockup {
     font-size: 16px; }
   section.principles .lockup .unit p strong {
     font-size: 25px; }
+  section.prices .price-unit {
+    max-width: 300px;
+    padding: 20px;
+    margin: 10px; }
   section.prices .price-unit p {
-    font-size: 16px; }
+    font-size: 13px; }
   .banner h1 {
-    font-size: 15px; } }
+    font-size: 15px; }
+  section.includes .include-unit {
+    margin: 10px 30px 100px 0; }
+  section.includes .include-unit p {
+    width: 100px;
+    text-align: left; }
+  section.include .include-unit .title h1 {
+    padding-bottom: 50px; } }
 
 section.guarantee {
   padding-top: 50px;
@@ -3497,7 +3508,7 @@ section.guarantee {
     font-size: 20px;
     margin-top: 100px; }
   .includes .total-wrapper .wrapper {
-    padding: 90px;
+    padding: 30px;
     margin: 0 auto; }
   .includes .total-wrapper .include-unit {
     text-align: left;
@@ -3509,18 +3520,15 @@ section.guarantee {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    padding: 10px;
-    height: 150px; }
+    padding: 20px;
+    max-height: 350px; }
     .includes .total-wrapper .include-unit h1 {
       font-size: 17px;
       text-transform: capitalize; }
     .includes .total-wrapper .include-unit p {
       font-size: 14px;
-      line-height: 2em; }
+      line-height: 2em;
+      max-width: 400px; }
     .includes .total-wrapper .include-unit .fa {
       color: #E23E57;
       margin-right: 10px; }
