@@ -3295,12 +3295,13 @@ section.principles .lockup {
   .prices .pro {
     margin: 0;
     padding-top: 50px; }
-    .prices .pro h1 {
+    .prices .pro h1.posr {
       padding: 0;
-      margin: 0; }
+      margin: 0 0 30px 0; }
     .prices .pro .price-title {
       padding: 0;
-      margin: 0; }
+      margin-top: 10px;
+      margin-bottom: 40px; }
   .prices .select {
     text-transform: uppercase;
     color: #fff;
@@ -3443,17 +3444,20 @@ section.principles .lockup {
     font-size: 25px; }
   section.prices .price-unit {
     max-width: 300px;
-    padding: 20px;
-    margin: 10px; }
+    padding: 20px; }
   section.prices .price-unit p {
     font-size: 13px; }
   .banner h1 {
     font-size: 15px; }
   section.includes .include-unit {
-    margin: 10px 30px 100px 0; }
+    margin: 0; }
+  section.includes .wrapper.flex.columns {
+    margin: 0;
+    padding: 20px; }
   section.includes .include-unit p {
-    width: 100px;
-    text-align: left; }
+    width: 400px;
+    text-align: left;
+    padding: 0; }
   section.include .include-unit .title h1 {
     padding-bottom: 50px; } }
 
@@ -3520,7 +3524,6 @@ section.guarantee {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
-    padding: 20px;
     max-height: 350px; }
     .includes .total-wrapper .include-unit h1 {
       font-size: 17px;

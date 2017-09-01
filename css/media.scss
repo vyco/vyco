@@ -13,7 +13,7 @@
     section.prices .price-unit {
       max-width: 300px;
       padding: 20px;
-      margin: 10px;
+
     }
     section.prices .price-unit p{
       font-size: 13px;
@@ -22,11 +22,16 @@
       font-size: 15px;
     }
     section.includes .include-unit  {
-      margin: 10px 30px 100px 0 
+      margin: 0;
+    }
+    section.includes .wrapper.flex.columns{
+      margin: 0;
+      padding: 20px;
     }
     section.includes .include-unit p{
-      width: 100px;
+      width: 400px;
       text-align: left;
+      padding: 0
     }
     section.include .include-unit .title h1{
     padding-bottom: 50px;
