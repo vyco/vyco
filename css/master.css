@@ -3454,6 +3454,8 @@ section.principles .lockup {
   section.includes .wrapper.flex.columns {
     margin: 0;
     padding: 20px; }
+  section.prices .price-unit .yo {
+    font-size: 11px; }
   section.includes .include-unit p {
     width: 400px;
     text-align: left;
