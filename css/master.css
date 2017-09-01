@@ -2803,10 +2803,12 @@ template, [hidden] {
   justify-content: space-between; }
 
 body {
-  font-family: "brandon-grotesque";
+  font-family: "museo-sans-rounded", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
   margin: 0;
   padding: 0;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased; }
 
 .hero-intro {
   height: 100vh;
@@ -3277,20 +3279,42 @@ section.principles .lockup {
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
 
 .prices {
-  background: #f2f2f2; }
+  background: #fff; }
+  .prices .desc {
+    text-transform: none;
+    font-size: 13px;
+    width: 500px;
+    padding: 20px;
+    line-height: 2em;
+    margin-top: -30px;
+    margin-bottom: -10px; }
+  .prices .yo {
+    letter-spacing: 4px; }
+  .prices .side {
+    height: 600px; }
+  .prices .pro {
+    margin: 0;
+    padding-top: 50px; }
+    .prices .pro h1 {
+      padding: 0;
+      margin: 0; }
+    .prices .pro .price-title {
+      padding: 0;
+      margin: 0; }
   .prices .select {
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 3px;
     font-size: 14px;
-    background: #222831;
-    border: 2px solid #E23E57;
+    background: #E23E57;
+    border-radius: 5px;
     text-decoration: none;
-    padding: 20px 60px;
+    padding: 20px 40px;
     margin-bottom: 60px;
     -webkit-transition: .56s ease all;
     -o-transition: .56s ease all;
-    transition: .56s ease all; }
+    transition: .56s ease all;
+    margin-top: 30px; }
     .prices .select:hover {
       color: white;
       background: #E23E57; }
@@ -3304,17 +3328,17 @@ section.principles .lockup {
     margin-top: 100px;
     font-size: 30px; }
   .prices .exclusive h1 {
-    font-size: 20px; }
+    font-size: 30px; }
   .prices .title {
-    background: #E23E57;
     width: 100%;
     text-align: center; }
     .prices .title h1 {
       padding: 20px; }
   .prices .price-unit {
-    background: #222831;
-    margin: 30px;
-    color: white; }
+    font-weight: 500;
+    color: #36434D;
+    border: 1px solid #e4eaef;
+    width: 500px; }
     .prices .price-unit .price-title {
       text-transform: uppercase;
       letter-spacing: 4px;
@@ -3323,18 +3347,21 @@ section.principles .lockup {
       width: 100%; }
   .prices .pound-sign {
     position: absolute;
-    top: -0px;
+    top: 2px;
     left: -16px;
     font-size: 20px;
     color: #E23E57;
     font-weight: bold; }
   .prices p {
     text-transform: capitalize;
-    padding: 20px;
-    font-size: 20px; }
+    font-size: 14px; }
     .prices p .fa {
       padding: 10px;
-      color: #E23E57; }
+      color: #E23E57;
+      -webkit-box-ordinal-group: 0;
+      -webkit-order: -1;
+      -ms-flex-order: -1;
+      order: -1; }
 
 .btn {
   padding: 20px 100px;
@@ -3429,3 +3456,45 @@ section.principles .lockup {
     font-size: 16px; }
   .banner h1 {
     font-size: 15px; } }
+
+section.guarantee {
+  margin-top: 50px;
+  width: 100%;
+  background: #E23E57;
+  padding: 50px; }
+  section.guarantee .icon {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-right: 50px;
+    margin-top: -10px; }
+  section.guarantee .fa {
+    font-size: 100px;
+    color: white;
+    padding: 0;
+    margin: 10px; }
+  section.guarantee .selected {
+    font-size: 100px; }
+  section.guarantee .small {
+    font-size: 50px; }
+  section.guarantee .even-smaller {
+    font-size: 25px; }
+  section.guarantee h1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0 0 4px 0; }
+  section.guarantee p {
+    color: #81212f;
+    font-weight: bold;
+    width: 560px;
+    line-height: 2em;
+    font-size: 19px;
+    padding: 0;
+    margin: 0;
+    font-weight: 300; }
+    section.guarantee p strong {
+      font-weight: bold; }
