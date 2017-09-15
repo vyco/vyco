@@ -52,10 +52,12 @@ function circleImporter(){
   $('.production-process').css('opacity','0');
 $('.circle-dot').css('opacity','0');
 $('.text,.side').css('opacity','0');
+  $('.para').css('opacity','0');
   $(window).scroll(function(){
 
     var wscroll = $(this).scrollTop();
   if(wscroll > $('.our-process').offset().top - $(window).height()/2){
+    $('.para').addClass('bounceIn');
 $('.line').each(function(i){
   setTimeout(function(){
     $('.line').animate({height: '400px'},2000);

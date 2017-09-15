@@ -3044,6 +3044,11 @@ section.principles .lockup {
 .our-process {
   padding-bottom: 40px;
   padding-top: 60px; }
+  .our-process .para {
+    font-size: 20px;
+    width: 700px;
+    line-height: 2em;
+    padding-top: 30px; }
   .our-process .number {
     opacity: 1;
     font-size: 300px;
@@ -3417,7 +3422,8 @@ header .writing {
   .about-section .about-unit {
     position: relative;
     padding-left: 400px;
-    text-align: left; }
+    text-align: left;
+    opacity: 0; }
     .about-section .about-unit p {
       width: 900px;
       font-size: 22px;
