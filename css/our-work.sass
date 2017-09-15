@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400|Playfair+Display')
 body
 .our-work
-	background: $black
+	background: #f7f7f7
 	padding: 50px 50px 70px 50px
+
 	.intro-para
-		color: white
+		color: #888
 		font-size: 20px
 		padding: 0px 0 50px 0
 		margin: 0
 		width: 900px
 		line-height: 2em
 		font-weight: 300
+		font-family: "Lato",sans-serif
+		margin-top: -30px
 	.mak
 		color: white
 		h1
@@ -24,7 +27,7 @@ body
 			font-family: "Lato",sans-serif
 
 	.title
-		color: white
+		color: $black
 		font-size: 50px
 		padding: 0
 		margin-bottom: 60px
@@ -34,6 +37,9 @@ body
 			background: #ccc
 			margin: 20px 0 0 0
 			padding: 0
+			outline: none
+			background: $orange
+			border: none
 
 
 	.work-unit
@@ -42,7 +48,12 @@ body
 		background-position: center center
 		height: 500px
 		width: 1000px
+		transition: 1s ease all
 		&:hover
+			transform: scale(1.03)
+			z-index: 9999
+			border-radius: 10px
+
 			.overlay
 				opacity: 1
 		.overlay

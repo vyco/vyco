@@ -3306,6 +3306,15 @@ section.principles .lockup {
 
 .prices {
   background: #fff; }
+  .prices .price-para {
+    font-size: 20px;
+    color: #999;
+    line-height: 2em;
+    width: 900px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 300;
+    font-family: "Lato",sans-serif; }
   .prices .desc {
     text-transform: none;
     font-size: 13px;
@@ -3404,21 +3413,22 @@ header .writing {
       color: #E23E57; }
 
 .about-section {
-  padding-top: 40px; }
+  padding-top: 100px; }
   .about-section .about-unit {
     position: relative;
     padding-left: 400px;
     text-align: left; }
     .about-section .about-unit p {
       width: 900px;
-      font-size: 25px;
+      font-size: 22px;
       line-height: 2em;
       font-family: "Lato",sans-serif; }
       .about-section .about-unit p span {
         color: #E23E57;
         font-weight: 400; }
     .about-section .about-unit h1.posr {
-      font-family: "Playfair display",sans-serif; }
+      font-family: "Playfair display",sans-serif;
+      font-size: 50px; }
     .about-section .about-unit h1.posa {
       font-size: 460px;
       color: #f7f7f7;
@@ -3430,16 +3440,18 @@ header .writing {
       font-family: "Playfair display",sans-serif; }
 
 .our-work {
-  background: #222831;
+  background: #f7f7f7;
   padding: 50px 50px 70px 50px; }
   .our-work .intro-para {
-    color: white;
+    color: #888;
     font-size: 20px;
     padding: 0px 0 50px 0;
     margin: 0;
     width: 900px;
     line-height: 2em;
-    font-weight: 300; }
+    font-weight: 300;
+    font-family: "Lato",sans-serif;
+    margin-top: -30px; }
   .our-work .mak {
     color: white; }
     .our-work .mak h1 {
@@ -3452,7 +3464,7 @@ header .writing {
       font-size: 20px;
       font-family: "Lato",sans-serif; }
   .our-work .title {
-    color: white;
+    color: #222831;
     font-size: 50px;
     padding: 0;
     margin-bottom: 60px; }
@@ -3461,14 +3473,26 @@ header .writing {
       height: 4px;
       background: #ccc;
       margin: 20px 0 0 0;
-      padding: 0; }
+      padding: 0;
+      outline: none;
+      background: #E23E57;
+      border: none; }
   .our-work .work-unit {
     margin: 0;
     background-position: center center;
     height: 500px;
-    width: 1000px; }
-    .our-work .work-unit:hover .overlay {
-      opacity: 1; }
+    width: 1000px;
+    -webkit-transition: 1s ease all;
+    -o-transition: 1s ease all;
+    transition: 1s ease all; }
+    .our-work .work-unit:hover {
+      -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+      transform: scale(1.03);
+      z-index: 9999;
+      border-radius: 10px; }
+      .our-work .work-unit:hover .overlay {
+        opacity: 1; }
     .our-work .work-unit .overlay {
       top: 0;
       left: 0;

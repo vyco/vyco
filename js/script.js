@@ -11,7 +11,7 @@ sizer();
 spanLocker();
 bannerClick();
 redirect();
-
+work();
 });
 
 function redirect(){
@@ -139,6 +139,28 @@ function bannerClick(){
   $('.banner').click(function(){
     $('html ,body').animate({
       scrollTop: $('.our-process').offset().top
+    },4000);
+  });
+}
+function anime(){
+  var functionBasedDelay = anime({
+  targets: '.our-work > .work-unit',
+  opacity: [0,1],
+  translateX: 250,
+  delay: function(i) {
+    return i * 100;
+  }
+});
+}
+function work(){
+  $('.our-prices-link').click(function(){
+    $('html ,body').animate({
+      scrollTop: $('.prices').offset().top
+    },4000);
+  });
+  $('.our-work-link').click(function(){
+    $('html ,body').animate({
+      scrollTop: $('.our-work').offset().top
     },4000);
   });
 }
