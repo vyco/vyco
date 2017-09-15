@@ -6,6 +6,8 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS. */
 @import url("https://fonts.googleapis.com/css?family=Satisfy");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|Playfair+Display");
 html {
   line-height: 1.15;
   /* 1 */
@@ -87,6 +89,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */ }
 
@@ -2832,6 +2835,29 @@ body {
       letter-spacing: 5px;
       font-size: 20px; }
 
+.top-bar {
+  background-image: -webkit-linear-gradient(top, #272931 0%, #222831 100%); }
+  .top-bar h1 {
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 300;
+    -webkit-transition: .67s ease all;
+    -o-transition: .67s ease all;
+    transition: .67s ease all;
+    background-image: -webkit-linear-gradient(top, #272931 0%, #222831 100%); }
+  .top-bar nav.global a {
+    color: #6c728b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    letter-spacing: 2px;
+    -webkit-transition: .56s ease all;
+    -o-transition: .56s ease all;
+    transition: .56s ease all; }
+    .top-bar nav.global a:hover {
+      color: white; }
+
 section.principles .intro-vyco {
   position: relative; }
 
@@ -2864,7 +2890,7 @@ section.principles .overlay {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: -webkit-linear-gradient(bottom, #222831 0%, #E23E57 100%);
+  background-image: -webkit-linear-gradient(bottom, #E23F58 0%, #222831 100%);
   opacity: .9; }
 
 section.principles .our-promise {
@@ -3363,6 +3389,112 @@ section.principles .lockup {
       -webkit-order: -1;
       -ms-flex-order: -1;
       order: -1; }
+
+header .writing {
+  background: #222831;
+  color: white;
+  padding: 100px; }
+  header .writing h1 {
+    font-weight: 300;
+    font-size: 55px;
+    font-family: "Playfair display",sans-serif;
+    width: 950px;
+    line-height: 1.9em; }
+    header .writing h1 span {
+      color: #E23E57; }
+
+.about-section {
+  padding-top: 40px; }
+  .about-section .about-unit {
+    position: relative;
+    padding-left: 400px;
+    text-align: left; }
+    .about-section .about-unit p {
+      width: 900px;
+      font-size: 25px;
+      line-height: 2em;
+      font-family: "Lato",sans-serif; }
+      .about-section .about-unit p span {
+        color: #E23E57;
+        font-weight: 400; }
+    .about-section .about-unit h1.posr {
+      font-family: "Playfair display",sans-serif; }
+    .about-section .about-unit h1.posa {
+      font-size: 460px;
+      color: #f7f7f7;
+      left: 100px;
+      top: -150px;
+      padding: 0;
+      margin: 0;
+      z-index: -1;
+      font-family: "Playfair display",sans-serif; }
+
+.our-work {
+  background: #222831;
+  padding: 50px 50px 70px 50px; }
+  .our-work .intro-para {
+    color: white;
+    font-size: 20px;
+    padding: 0px 0 50px 0;
+    margin: 0;
+    width: 900px;
+    line-height: 2em;
+    font-weight: 300; }
+  .our-work .mak {
+    color: white; }
+    .our-work .mak h1 {
+      font-family: "Playfair display",sans-serif;
+      font-size: 70px;
+      margin: 0;
+      padding: 0; }
+    .our-work .mak p {
+      font-weight: 300;
+      font-size: 20px;
+      font-family: "Lato",sans-serif; }
+  .our-work .title {
+    color: white;
+    font-size: 50px;
+    padding: 0;
+    margin-bottom: 60px; }
+    .our-work .title hr {
+      width: 90px;
+      height: 4px;
+      background: #ccc;
+      margin: 20px 0 0 0;
+      padding: 0; }
+  .our-work .work-unit {
+    margin: 0;
+    background-position: center center;
+    height: 500px;
+    width: 1000px; }
+    .our-work .work-unit:hover .overlay {
+      opacity: 1; }
+    .our-work .work-unit .overlay {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 40px;
+      background: rgba(34, 40, 49, 0.6);
+      opacity: 0;
+      -webkit-transition: 1s ease all;
+      -o-transition: 1s ease all;
+      transition: 1s ease all;
+      color: white; }
+      .our-work .work-unit .overlay h1 {
+        font-weight: 300;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 300;
+        padding: 0;
+        margin: 0; }
+      .our-work .work-unit .overlay p {
+        font-family: "Lato",sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        text-align: center;
+        line-height: 2em; }
 
 .btn {
   padding: 20px 100px;

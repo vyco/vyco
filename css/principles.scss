@@ -1,4 +1,33 @@
+.top-bar{
+  background-image: -webkit-linear-gradient(top, #272931 0%, #222831 100%);
+
+  h1{
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 300;
+    transition: .67s ease all;
+background-image: -webkit-linear-gradient(top, #272931 0%, #222831 100%);
+
+  }
+  nav.global{
+  a{
+    color: #6c728b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    letter-spacing: 2px;
+    transition: .56s ease all;
+    &:hover{
+      color: white;
+    }
+
+  }
+}
+}
 section.principles{
+
+
   .intro-vyco{
     position: relative;
   }
@@ -26,11 +55,12 @@ span.see{
 
   }
   .overlay{
+
     top:0;
     left: 0;
     right: 0;
     bottom: 0;
-background-image: -webkit-linear-gradient(bottom, #222831 0%, #E23E57 100%);
+background-image: -webkit-linear-gradient(bottom, #E23F58 0%, #222831 100%);
 
     opacity: .9;
 

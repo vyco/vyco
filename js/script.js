@@ -11,6 +11,7 @@ sizer();
 spanLocker();
 bannerClick();
 redirect();
+
 });
 
 function redirect(){
