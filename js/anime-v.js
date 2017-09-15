@@ -21,4 +21,11 @@ $(document).ready(function(){
 			return 1000+(i*1000);
 		}
 	})
+.add({
+	targets: 'footer',
+	opacity: [0,1],
+	translateY: [-10,0],
+	duration: 4000,
+	offset: 2000
+});
 });

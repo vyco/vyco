@@ -3445,6 +3445,37 @@ header .writing {
       z-index: -1;
       font-family: "Playfair display",sans-serif; }
 
+footer {
+  opacity: 0;
+  background: #efefef;
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 150px;
+  -webkit-transition: 1s ease all;
+  -o-transition: 1s ease all;
+  transition: 1s ease all; }
+  footer:hover {
+    background: #E23E57; }
+    footer:hover h1 {
+      color: white; }
+    footer:hover p {
+      color: white; }
+  footer h1 {
+    color: #444;
+    -webkit-transition: 1s ease all;
+    -o-transition: 1s ease all;
+    transition: 1s ease all;
+    font-weight: 300;
+    font-family: "Playfair display",sans-serif; }
+  footer p {
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: #999;
+    -webkit-transition: 1s ease all;
+    -o-transition: 1s ease all;
+    transition: 1s ease all; }
+
 .our-work {
   background: #f7f7f7;
   padding: 50px 50px 70px 50px; }
