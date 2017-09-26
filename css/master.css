@@ -3474,7 +3474,9 @@ footer {
     color: #999;
     -webkit-transition: 1s ease all;
     -o-transition: 1s ease all;
-    transition: 1s ease all; }
+    transition: 1s ease all;
+    font-family: "Lato",sans-serif;
+    font-weight: 300; }
 
 .our-work {
   background: #f7f7f7;

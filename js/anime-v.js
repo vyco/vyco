@@ -28,4 +28,23 @@ $(document).ready(function(){
 	duration: 4000,
 	offset: 2000
 });
+movement();
+
 });
+	var newTimeLine = anime({
+
+	targets: clickedAboutUnit,
+	translateX: [0,250],
+	translateY: [0,100],
+	easing: 'easeOutQuart'
+});
+function movement(){
+	var otherAboutUnit = $(".about-unit").data('number', $('2'));
+	var clickedAboutUnit = $(".about-unit").data('number', $('1'));
+		clickedAboutUnit.click(function(){
+			console.log("clicked");
+			newTimeLine.play();
+
+		});
+
+}

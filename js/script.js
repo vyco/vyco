@@ -12,7 +12,10 @@ spanLocker();
 bannerClick();
 redirect();
 work();
+
+
 });
+
 
 function redirect(){
   if(screen.width <= 680){
